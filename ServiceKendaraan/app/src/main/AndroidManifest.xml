@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.app.servicekendaraan">
+  <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+  <application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/Theme.ServiceKendaraan">
+    <activity
+      android:name=".history.HistoryKeluhanPelangganActivity"
+      android:exported="false" />
+    <activity
+      android:name=".Camera.QRScannerActivity"
+      android:exported="true" />
+    <activity
+      android:name=".Camera.QRScannerMain"
+      android:exported="true" />
+    <activity
+      android:name=".Camera.CameraActivity"
+      android:exported="true" />
+    <activity
+      android:name=".setting.ContactUsActivity"
+      android:exported="false"
+      android:theme="@style/Theme.ServiceKendaraan.NoActionBar" />
+    <activity
+      android:name=".setting.AboutActivity"
+      android:exported="false"
+      android:theme="@style/Theme.ServiceKendaraan.NoActionBar" />
+    <activity
+      android:name=".setting.SettingActivity"
+      android:exported="false"
+      android:theme="@style/Theme.ServiceKendaraan.NoActionBar" />
+    <activity
+      android:name=".history.HistoryActivity"
+      android:exported="false"
+      android:theme="@style/Theme.ServiceKendaraan.NoActionBar" />
+    <activity
+      android:name=".profile.ProfileActivity"
+      android:exported="false"
+      android:theme="@style/Theme.ServiceKendaraan.NoActionBar" />
+
+    <meta-data
+      android:name="com.google.android.geo.API_KEY"
+      android:value="@string/google_maps_key" />
+
+    <activity
+      android:name=".MapsActivity"
+      android:exported="false"
+      android:label="@string/title_activity_maps"
+      android:theme="@style/Theme.ServiceKendaraan.NoActionBar" />
+    <activity
+      android:name=".pesanan.MotorActivity"
+      android:exported="false"
+      android:theme="@style/Theme.ServiceKendaraan.NoActionBar" />
+    <activity
+      android:name=".teknisi.ProfilTeknisiActivity"
+      android:exported="false"
+      android:theme="@style/Theme.ServiceKendaraan.NoActionBar" />
+    <activity
+      android:name=".pesanan.PesananActivity"
+      android:exported="false"
+      android:theme="@style/Theme.ServiceKendaraan.NoActionBar" />
+    <activity
+      android:name=".pesanan.MobilActivity"
+      android:exported="false"
+      android:theme="@style/Theme.ServiceKendaraan.NoActionBar" />
+    <activity
+      android:name=".register.RegisterActivity"
+      android:exported="false"
+      android:theme="@style/Theme.ServiceKendaraan.NoActionBar" />
+    <activity
+      android:name=".MainActivity"
+      android:exported="false"
+      android:theme="@style/Theme.ServiceKendaraan.NoActionBar" /> <!-- <activity -->
+    <!-- android:name=".login.LoginActivity" -->
+    <!-- android:exported="false" /> -->
+    <activity
+      android:name=".login.LoginActivity"
+      android:exported="true"
+      android:theme="@style/Theme.ServiceKendaraan.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+  </application>
+
+</manifest>

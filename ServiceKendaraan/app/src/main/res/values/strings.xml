@@ -1,0 +1,24 @@
+<resources>
+  <string name="app_name">Service Kendaraan</string>
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="nama_lengkap">Nama Lengkap</string>
+  <string name="umur">Umur</string>
+  <string name="alamat">Alamat</string>
+  <string name="no_telepon">No.Telepon</string>
+  <string name="email">Email</string>
+  <string name="create">Create</string>
+  <string name="profil">PROFIL</string>
+  <string name="back">Back</string>
+  <string name="history">History</string>
+  <string name="title_activity_maps">MapsActivity</string>
+  <string name="dibuat_oleh">Dibuat Oleh : \nStevanus Cahyadi Putra \nI Gusti Putu Pramudya Sadhu Dharma \nKatharina Ayu M.Putri Dinata</string>
+  <string name="versi">Versi : \n 0.0.0.0.</string>
+  <string name="dibuat">Dibuat Pada \n25 Oktober 2021</string>
+  <string name="contact_us">Stevanus Cahyadi Putra \n
+        (081227567877) \n
+I Gusti Putu Pramudya Sadhu Dharma \n
+(08564268636)\n
+Katharina Ayu M.Putri Dinata\n
+(08744775597)</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "734970066677",
+    "project_id": "servicekendaraan-b2e7d",
+    "storage_bucket": "servicekendaraan-b2e7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734970066677:android:25d70a095cc6d7e809f7bc",
+        "android_client_info": {
+          "package_name": "com.app.servicekendaraan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734970066677-nf8o6lgbhq66dc3jt14cf2me8en8lp24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsvO6OsyNYaUEs0SRwOKR4MNhzlU_jgMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734970066677-nf8o6lgbhq66dc3jt14cf2me8en8lp24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
